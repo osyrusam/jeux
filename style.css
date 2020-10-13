@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: bisque;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    justify-items: center;
+
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.493);
+  
+    /* background-repeat: none;
+    background-size: cover; */
+    height: 333px;
+    width: 333px;
+    margin: auto;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 111px;
+    height: 111px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(0, 255, 255, 0);
+    position: relative;
+    color: lightgreen;
+    
+
+}
+
+.box0{
+    width: 111px;
+    height: 111px;
+    border: 0,1px solid black;
+    
+
+}
+
+.box1{
+    background-image: url("image/pig-01.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+.box2{
+    background-image: url("image/pig-02.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.box3{
+    background-image: url("image/pig-03.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.box4{
+    background-image: url("image/pig-04.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.box5{
+    background-image: url("image/pig-05.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.box6{
+    background-image: url("image/pig-06.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.box7{
+    background-image: url("image/pig-07.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.box8{
+    background-image: url("image/pig-08.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.melange{
+    height: 50px;
+    text-align: center;
+}
+
